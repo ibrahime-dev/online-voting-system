@@ -1,0 +1,25 @@
+# Database backups
+src/backups/
+*.sql
+
+# Uploaded files
+uploads/advertisements/*.jpg
+uploads/advertisements/*.png
+uploads/advertisements/*.jpeg
+uploads/advertisements/*.gif
+
+# Candidate images (generated at runtime)
+assets/images/candidates/
+
+# VS Code
+.vscode/
+
+# PHP error logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp/debug files
+src/debug_login.php

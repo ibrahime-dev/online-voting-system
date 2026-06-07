@@ -1,0 +1,11 @@
+# Prevent direct access to PHP files
+<Files "*.php">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Allow media files
+<FilesMatch "\.(jpg|jpeg|png|gif|webp|mp4|webm|ogg|avi|mov)$">
+    Order allow,deny
+    Allow from all
+</FilesMatch>
